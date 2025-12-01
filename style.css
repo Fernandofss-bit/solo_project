@@ -1,6 +1,27 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'juzif-medium';
+    src: url(fonts/franklin-gothic-similar-fonts/Frankston-Regular/FrankstonR.ttf);
+}
+
+:root{
+    --bg-color-font: #1f4624;
+    --font-color:#ffffff;
+    --bg-color:#cacaca;
+}
+
+.header-container{
+    background-color: var(--bg-color-font);
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    color: var(--font-color);
+    font-family: 'juzif-medium' Arial;
+    font-size: 12px;
+    padding: 1px 1px;
+    text-align: center;
+    width: 100%;
+}
 body{
-    background-color: gray;
-    color: red;
+    
 }
